@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- GOOGLE ANALYTICS!!  -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="koodi - Website design and development, graphic design and branding in York, North Yorkshire">
+
+    <title>Ed Walker</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+          
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- favicon  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#000000">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+  </head>
+
+<body>
+
+  <!-- wrapper for nav and landing  -->
+  <div class="nav-land-wrap">
+    <!-- navbar  -->
+    <section class="navigation">
+      <div class="container-fluid max-width">
+        <div class="row">
+          <nav class="col-12 P-0">
+            <button id="burger-btn" aria-expanded="false" aria-label="expand navigation menu" onclick="burgerMenu()">
+              <div class="burger-line"></div>
+              <div class="burger-line"></div>
+              <div class="burger-line"></div>
+            </button>
+            <div class="navigation-items-container" id="nav-menu" >
+              <ul class="nav-links">
+                <li class="navbar-li"><a href="#about">About</a></li>
+                <li class="navbar-li"><a href="#skills">Skills</a></li>
+                <li class="navbar-li"><a href="#my-work">Portfolio</a></li>
+              </ul>
+              <ul class="socials d-md-none">
+                <li class="navbar-li"><a href="https://www.linkedin.com/company/71487364/" target="_blank" rel="noopener"><i class="devicon-linkedin-plain colored"></i></a></li>
+                <li class="navbar-li"><a href="https://www.linkedin.com/company/71487364/" target="_blank" rel="noopener"><i class="devicon-github-original colored"></i></a></li>
+                <li class="navbar-li"><a href="mailto:ed.walker@hotmail.co.uk"><img src="/img/email-icon.svg" alt="email icon"></a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </section>
+    <!-- landing page  -->
+    <section class="landing">
+      <div class="container landing-container pt-5 pt-md-0">
+        <div class="row pt-5 pb-3 pt-lg-0 pb-lg-5 justify-content-center">
+          <div class="col-12 col-lg-8 col-xl-10 text-center">
+            <h1>Ed Walker</h1>
+          </div>
+          <div class="col-12 pb-5 text-center">
+            <h2 class="tagline pb-2">Software Developer</h2>
+            <div class="row justify-content-center">
+              <div class="col-5">
+                <div class="row landing-socials">
+                  <div class="col-4 p-2">
+                    <a href="https://www.linkedin.com/company/71487364/" target="_blank" rel="noopener"><i class="devicon-linkedin-plain colored"></i></a>
+                  </div>
+                  <div class="col-4 p-2">
+                    <a href="https://www.linkedin.com/company/71487364/" target="_blank" rel="noopener"><i class="devicon-github-original colored"></i></a>
+                  </div>
+                  <div class="col-4 p-2">
+                    <a href="mailto:ed.walker@hotmail.co.uk"><img src="/img/email-icon.svg" alt="email icon"></a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- circles  -->
+        <div class="circle yellow-circle floating">
+          <div class="circle-inner">
+            <div class="circle-center"></div>
+          </div>
+        </div>
+        <div class="circle cyan-circle floating">
+          <div class="circle-inner"></div>
+        </div>
+        <div class="circle blue-circle floating">
+          <div class="circle-inner">
+            <div class="circle-center"></div>
+          </div>
+        </div>
+        <div class="circle pink-circle floating">
+          <div class="circle-inner">
+            <div class="circle-center"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+    <!-- about us  -->
+    <section class="container about-us" id="about">
+      <div class="circle yellow-circle spinning">
+        <div class="circle-inner">
+          <div class="circle-center"></div>
+        </div>
+      </div>
+      <div class="circle cyan-circle spinning">
+        <div class="circle-inner">
+          <div class="circle-center"></div>
+        </div>
+      </div>
+      <div class="circle blue-circle spinning">
+        <div class="circle-inner">
+          <div class="circle-center"></div>
+        </div>
+      </div>
+      <div class="circle pink-circle spinning">
+        <div class="circle-inner">
+          <div class="circle-center"></div>
+        </div>
+      </div>
+      <div class="row justify-content-end">
+        <div class="col-12 col-md-8 col-lg-7 pt-5 pb-5">
+          <h1 class="pt-5 pb-5">About me...</h1>
+          <p class="pb-3">I am a frontend focussed software developer, specialising in Javascript, Typescript and React.js</p>
+          <p class="pb-3">Every company or client has their individual requirements, aims and timescales, which is why all our quotes are tailored to each project and its specific needs rather than a “one package fits all” scenario.</p>
+          <p class="pb-3">All our websites are designed to be fully responsive (mobile friendly), allowing your site to adapt to different screen sizes, so you can provide visitors with the best possible experience. </p>
+          <p class="pb-3">We can provide everything you need to get your website up and running online, including domain name, hosting and SSL.</p>
+          <p class="pb-3">Please do get in touch, we love chatting to people about their projects and talking you through the process. And there’s no such thing as a silly question! So please ask us anything!</p>
+        </div>
+      </div>
+    </section>
+
+
+  <!-- skills -->
+  <section class="skills" id="skills">
+    <div class="container pb-5">
+      <div class="row">
+        <div class="col-12 pt-5 pb-5 text-center text-md-left">
+          <h2>Some of my skills...</h2>
+        </div>
+      </div>
+      <div class="row pb-3 skills-icons">
+        <div class="col-4 col-md-2 dev-icons text-center p-2">
+          <i class="devicon-html5-plain"></i>
+          <p>HTML</p>
+        </div>
+        <div class="col-4 col-md-2 dev-icons text-center p-2">
+          <i class="devicon-css3-plain"></i>
+          <p>CSS</p>
+        </div>
+        <div class="col-4 col-md-2 dev-icons text-center p-2">
+          <i class="devicon-sass-original"></i>
+          <p>SASS</p>
+        </div>
+        <div class="col-4 col-md-2 dev-icons text-center p-2">
+          <i class="devicon-javascript-plain"></i>
+          <p>JavaScript</p>
+        </div>
+        <div class="col-4 col-md-2 dev-icons text-center p-2">
+          <i class="devicon-typescript-plain"></i>
+          <p>Typescript</p>
+        </div>
+        <div class="col-4 col-md-2 dev-icons text-center p-2">
+          <i class="devicon-nodejs-plain"></i>
+          <p>Node.js</p>
+        </div>
+        <div class="col-4 col-md-2 dev-icons text-center p-2">
+          <i class="devicon-npm-original-wordmark"></i>
+          <p>NPM</p>
+        </div>
+        <div class="col-4 col-md-2 dev-icons text-center p-2">
+          <i class="devicon-react-original"></i>
+          <p>React.js</p>
+        </div>
+        <div class="col-4 col-md-2 dev-icons text-center p-2">
+          <i class="devicon-vuejs-plain"></i>
+          <p>Vue.js</p>
+        </div>
+        <div class="col-4 col-md-2 dev-icons text-center p-2">
+          <i class="devicon-nuxtjs-plain"></i>
+          <p>Nuxt.js</p>
+        </div>
+        <div class="col-4 col-md-2 dev-icons text-center p-2">
+          <i class="devicon-jest-plain"></i>
+          <p>Jest</p>
+        </div>
+        <div class="col-4 col-md-2 dev-icons text-center p-2">
+          <i class="devicon-storybook-plain"></i>
+          <p>Storybook</p>
+        </div>
+        <div class="col-4 col-md-2 dev-icons text-center p-2">
+          <i class="devicon-azure-plain"></i>
+          <p>Azure</p>
+        </div>
+        <div class="col-4 col-md-2 dev-icons text-center p-2">
+          <i class="devicon-graphql-plain"></i>
+          <p>GraphQL</p>
+        </div>
+        <div class="col-4 col-md-2 dev-icons text-center p-2">
+          <i class="devicon-git-plain"></i>
+          <p>Git</p>
+        </div>
+        <div class="col-4 col-md-2 dev-icons text-center p-2">
+          <i class="devicon-docker-plain"></i>
+          <p>Docker</p>
+        </div>
+        <div class="col-4 col-md-2 dev-icons text-center p-2">
+          <i class="devicon-materialui-plain"></i>
+          <p>MUI</p>
+        </div>
+        <div class="col-4 col-md-2 dev-icons text-center p-2">
+          <i class="devicon-bootstrap-plain"></i>
+          <p>Bootstrap</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- my work  -->
+  <section class="container our-work" id="my-work">
+    <div class="circle pink-circle bounce-in">
+      <div class="circle-inner">
+        <div class="circle-center"></div>
+      </div>
+    </div>
+    <div class="circle cyan-circle bounce-in">
+      <div class="circle-inner">
+        <div class="circle-center"></div>
+      </div>
+    </div>
+    <div class="circle blue-circle bounce-in">
+      <div class="circle-inner">
+        <div class="circle-center"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-10 col-md-8 pt-5 pb-5">
+        <h2 class="pt-5 pb-5">My work...</h2>
+        <p>Here are some examples of projects I have completed</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- portfolio -->
+  <section class="portfolio container">
+    <div class="col-12 pt-5 pb-5 pr-0 pl-0">
+      <div class="angry-grid max-width">
+        <div id="item-0" class="grid-outer">
+          <div class="grid-inner">
+            <img
+              class="website-img"
+              sizes="(max-width: 767px) 100vw, 740px"
+              srcset="
+              img/www.weareha.co.uk_mcoczm_c_scale,w_480.png 480w,
+              img/www.weareha.co.uk_mcoczm_c_scale,w_890.png 890w,
+              img/www.weareha.co.uk_mcoczm_c_scale,w_1200.png 1200w"
+              src="img/www.weareha.co.uk_mcoczm_c_scale,w_1200.png"
+              alt="we are ha website image"
+            >
+            <div class="overlay">
+              <div class="overlay-content text-center">
+                <h2 class="h4 pb-2">We Are HA</h2>
+                <p class="pb-3">Website Design & Build</p>
+                <a href="https://www.weareha.co.uk/" class="btn btn-third" target="_blank" rel="noopener">Visit Site</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div id="item-1" class="grid-outer">
+          <div class="grid-inner">
+            <img
+              class="website-img"
+              sizes="(max-width: 767px) 100vw, 740px"
+              srcset="
+              img/tinystompers-site2_lnh7qd_c_scale,w_200.jpg 200w,
+              img/tinystompers-site2_lnh7qd_c_scale,w_675.jpg 675w,
+              img/tinystompers-site2_lnh7qd_c_scale,w_1076.jpg 1076w,
+              img/tinystompers-site2_lnh7qd_c_scale,w_1200.jpg 1200w"
+              src="img/tinystompers-site2_lnh7qd_c_scale,w_1200.jpg"
+              alt="tiny stompers website image"
+            >
+            <div class="overlay">
+              <div class="overlay-content text-center">
+                <h2 class="h4 pb-2">Tiny Stompers</h2>
+                <p class="pb-2">Branding</p>
+                <p class="pb-3">Website Design & Build</p>
+                <a href="https://www.tinystompers.co.uk/" class="btn btn-third" target="_blank" rel="noopener">Visit Site</a>
+              </div>
+            </div>         
+          </div>
+        </div>
+        <div id="item-2" class="grid-outer">
+          <div class="grid-inner">
+            <img
+              class="website-img"
+              sizes="(max-width: 767px) 100vw, 740px"
+              srcset="
+              img/candjmotorhomes-site_nzwdnq_c_scale,w_200.jpg 200w,
+              img/candjmotorhomes-site_nzwdnq_c_scale,w_757.jpg 757w,
+              img/candjmotorhomes-site_nzwdnq_c_scale,w_1180.jpg 1180w,
+              img/candjmotorhomes-site_nzwdnq_c_scale,w_1365.jpg 1365w"
+              src="img/candjmotorhomes-site_nzwdnq_c_scale,w_1365.jpg"
+              alt="c and j motorhomes website image"
+            >
+            <div class="overlay">
+              <div class="overlay-content text-center">
+                <h2 class="h4 pb-2">C&J Motorhomes</h2>
+                <p class="pb-3">Website Design & Build</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="item-3" class="grid-outer">
+          <div class="grid-inner">
+            <div class="logo-container mastrelli-maths p-5">
+              <img class="logo-img p-2 p-lg-5" src="img/mastrelli-maths-logo.png" alt="mastrelli maths logo">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content text-center">
+                <h2 class="h4 pb-2">Mastrelli Maths</h2>
+                <p class="pb-2">Branding</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="item-4" class="grid-outer">
+          <div class="grid-inner">
+            <img
+              class="website-img"
+              sizes="(max-width: 767px) 100vw, 740px"
+              srcset="
+              img/idsindustrial-site_fajefp_c_scale,w_200.jpg 200w,
+              img/idsindustrial-site_fajefp_c_scale,w_782.jpg 782w,
+              img/idsindustrial-site_fajefp_c_scale,w_1103.jpg 1103w,
+              img/idsindustrial-site_fajefp_c_scale,w_1200.jpg 1200w"
+              src="img/idsindustrial-site_fajefp_c_scale,w_1200.jpg"
+              alt="ids industrial website image">
+            <div class="overlay">
+              <div class="overlay-content text-center">
+                <h2 class="h4 pb-2">IDS Industrial</h2>
+                <p class="pb-3">Website Design & Build</p>
+                <a href="https://www.idsindustrial.co.uk/" class="btn btn-third" target="_blank" rel="noopener">Visit Site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="item-5" class="grid-outer">
+          <div class="grid-inner">
+            <img
+              class="website-img"
+              sizes="(max-width: 767px) 100vw, 740px"
+              srcset="
+              img/dogeatcog-site_wnmu0w_c_scale,w_200.jpg 200w,
+              img/dogeatcog-site_wnmu0w_c_scale,w_368.jpg 368w,
+              img/dogeatcog-site_wnmu0w_c_scale,w_512.jpg 512w,
+              img/dogeatcog-site_wnmu0w_c_scale,w_600.jpg 600w"
+              src="img/dogeatcog-site_wnmu0w_c_scale,w_600.jpg"
+              alt="dogeatcog website image"
+            >
+            <div class="overlay">
+              <div class="overlay-content text-center">
+                <h2 class="h4 pb-2">dogeatcog</h2>
+                <p class="pb-3">Website Build</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="item-6" class="grid-outer">
+          <div class="grid-inner">
+            <img
+              class="website-img"
+              sizes="(max-width: 767px) 100vw, 740px"
+              srcset="
+              img/minigpracing.co.uk-min_aqd4le_c_scale,w_480.jpg 400w,
+              img/minigpracing.co.uk-min_aqd4le_c_scale,w_907.jpg 907w,
+              img/minigpracing.co.uk-min_aqd4le_c_scale,w_1200.jpg 1200w"
+              src="img/minigpracing.co.uk-min_aqd4le_c_scale,w_1200.jpg"
+              alt="mini gp racing website image"
+            >
+            <div class="overlay">
+              <div class="overlay-content text-center">
+                <h2 class="h4 pb-2">Mini GP Racing</h2>
+                <p class="pb-3">Website Design & Build</p>
+                <a href="https://www.minigpracing.co.uk/" class="btn btn-third" target="_blank" rel="noopener">Visit Site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    
+    <!-- gsap  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+    <!-- swiper  -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="./script.js"></script>
+</body>
+</html>
