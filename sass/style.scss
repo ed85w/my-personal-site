@@ -330,12 +330,16 @@ section.landing {
 
     .landing-socials {
        div {
+        &:hover > * {
+          text-decoration: none;
+        }
         i {
           font-size: 30px;
         }
-        img {
-          width: 36px;
-          margin-bottom: 4px;
+        img.email-icon {
+          position: relative;
+          top: -4px;
+          width: 40px;
         }
       }
     }
@@ -549,21 +553,6 @@ section.portfolio {
     }
     #item-3 {
       display: none;
-      // grid-row-start: 7;
-      // grid-column-start: 1;  
-      // grid-row-end: 9;
-      // grid-column-end: 3;     
-      
-      // .overlay {
-      //   background: #FFDE33e7;
-      //   .overlay-content {
-      //     color: black;
-          
-      //     h2, p {
-      //       color: black;
-      //     }
-      //   }
-      // }
     }
     #item-4 {
       grid-row-start: 4;
