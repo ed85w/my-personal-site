@@ -1,7 +1,8 @@
 // navbar
+const burgerBtn = document.getElementById('burger-btn');
+const navMenu = document.getElementById('nav-menu');
+
 function burgerMenu() {
-  const burgerBtn = document.getElementById('burger-btn');
-  const navMenu = document.getElementById('nav-menu');
   if (navMenu.classList.contains("expanded")){
     navMenu.classList.remove("expanded");
     burgerBtn.setAttribute("aria-expanded", false);
@@ -16,7 +17,6 @@ window.onload = function() {
   var divs = document.querySelectorAll('.navbar-li'); 
   for (i = 0; i < divs.length; ++i) {
     divs[i].addEventListener('click', () => {
-      const navMenu = document.getElementById('nav-menu');
       if (navMenu.classList.contains("expanded")){
         navMenu.classList.remove("expanded");
         burgerBtn.setAttribute("aria-expanded", false);
