@@ -20,19 +20,6 @@ function burgerMenu() {
 
 // GSAP
 
-// wait until DOM is ready
-document.addEventListener("DOMContentLoaded", function(event) {
-    
-  // gsap timeline to animate logo 
-  var logoTl = gsap.timeline({});
-  logoTl.from("#koodi-logo", {duration:0, autoAlpha:0});
-  logoTl.from("#logo-k-line", {duration:1, height: 0, ease: Power3.easeOut }, 0.7);
-  logoTl.from("#logo-i-line", {duration:1, scaleY:0, transformOrigin:"center bottom",ease: Power3.easeOut} , 0.7);
-  logoTl.from("#logo-k-circle", {duration: 1, scale: 0, transformOrigin: "center center", ease:Back.easeOut.config(1.7)}, 1.2);
-  logoTl.from("#logo-i-circle", {duration: 1, scale: 0, transformOrigin: "center center", ease:Back.easeOut.config(1.7)}, 1.5);
-
-});
-
 // animation called when opening mob menu 
 function animateListItems() {
   gsap.from(".navbar-li", { 
@@ -44,7 +31,6 @@ function animateListItems() {
     stagger: 0.1,
   });
 }
-
 
 
 // // "floating circles"
